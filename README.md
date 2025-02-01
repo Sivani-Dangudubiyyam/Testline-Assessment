@@ -49,6 +49,18 @@ The application fetches quiz questions dynamically from an external API endpoint
 3. View your score summary at the end.
 4. Earn badges based on your score: Gold for more than 10, Silver for more than 5, and Bronze otherwise.
 
+## Screenshots
+
+![App Screenshot](https://github.com/Sivani-Dangudubiyyam/Testlink-Assessment/blob/main/instructions.png)
+
+![App Screenshot](https://github.com/Sivani-Dangudubiyyam/Testlink-Assessment/blob/main/question.png)
+
+![App Screenshot](https://github.com/Sivani-Dangudubiyyam/Testlink-Assessment/blob/main/wrongAnswer.png)
+ 
+![App Screenshot](https://github.com/Sivani-Dangudubiyyam/Testlink-Assessment/blob/main/correctAnswer.png)
+
+![App Screenshot](https://github.com/Sivani-Dangudubiyyam/Testlink-Assessment/blob/main/badge.png)
+
 ## Contributing
 
 We welcome contributions! Please follow these steps:
