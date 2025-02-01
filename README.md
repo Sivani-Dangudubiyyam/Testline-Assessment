@@ -1,4 +1,4 @@
-# QuizMaster: Web-Based Quiz Application
+# Web-Based Quiz Application
 
 ## Overview
 
