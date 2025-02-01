@@ -21,7 +21,7 @@ QuizMaster is a web-based quiz application designed to provide an engaging and i
    ```
 2. Navigate to the project directory:
    ```sh
-   cd quizmaster
+   cd Testlink-Assessment
    ```
 3. Install dependencies:
    ```sh
