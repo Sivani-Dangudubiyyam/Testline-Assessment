@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+    content="IE=edge">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testlink.css">
+
+</head>
+
+<body>
+    <div class="container startScreen">
+        <h2>Quiz Application</h2>
+        1.You will be asked 15 Questions one after another. <br />
+        2.Each question will have a time limit of 10 seconds. <br /> 
+        3.You can't select any option once time goes off. <br />
+       <ul class="instructionSet">
+        <li class="instructions"> If you score more than 10 you will get a <span class="gold"> Gold badge</span>. </li>
+        <li class="instructions" >If you score more than 5 then you will get a <span class="silver">Silver badge</span>.</li>
+        <li class="instructions">If you score less than 8 you will get a <span class="bronze">Bronze badge</span>. <br /></li>
+        </ul>
+        
+        <div class="btn">
+            <input type="text" id="userName" placeholder="Enter your name" />
+            <br />
+            <button class="startQuiz" onclick="startQuiz()">Start Quiz</button>
+
+        </div>
+
+    </div>
+    <div class="container playground">
+        <div class="quizHeader"></div>
+          <div class="timer">
+            <div>
+                <span id="questionCount">1</span> of 15 questions
+               </div>
+               <div>
+                  <i class="fa-solid fa-stopwatch"></i>
+                  <span id="questionTimer">10</span>
+               </div>
+          </div>
+
+           <div class="quizBody">
+            <h3 id="question"></h3>
+            <ul id="quizOptions"></ul>
+           </div>
+
+           <div class="loader">
+            <i class="fa-solid fa-gear fa-spin"></i>
+           </div>
+
+           <div class="quizFooter">
+                <button id="nextButton">Next</button>
+           </div>
+    </div>
+    <div class="container endScreen">
+        <p class="quizFinished">Quiz Finished!</p>
+
+        <p>Hello! <span id="resultUserName"></span></p>
+        
+        <div class="goldMedal">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/sport-and-awards/gold-medal-icon.png" class="img"/>
+            <p class="status">Wow! a genius found.</p>
+        </div>
+
+        <div class="silverMedal">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/sport-and-awards/silver-medal-icon.png" class="img"/>
+             <p class="status">Nice, Keep going!</p>
+        </div> 
+
+        <div class="bronzeMedal">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/sport-and-awards/bronze-medal-icon.png" class="img"/>
+            <P class="status">Try again,you can score more.</P>
+        </div>
+
+        <p>Your Score is <span class="finialScore" id="finalScore">0</span> out of 15</p>
+    
+        <div>
+            
+            <button class="resetQuiz" onclick="startQuiz()">Reset</button>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="testlink.js"></script
+</body>
+
+</html>
+
