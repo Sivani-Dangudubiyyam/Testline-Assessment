@@ -17,7 +17,7 @@ QuizMaster is a web-based quiz application designed to provide an engaging and i
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/quizmaster.git
+   git clone https://github.com/Sivani-Dangudubiyyam/Testlink-Assessment.git
    ```
 2. Navigate to the project directory:
    ```sh
